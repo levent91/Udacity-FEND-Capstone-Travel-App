@@ -1,0 +1,31 @@
+@media only screen and (max-width: 840px) {
+  p {
+    font-size: 0.9rem;
+  }
+  .dynamic-zone {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  p {
+    font-size: 0.8rem;
+  }
+  .dynamic-zone {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 20rem;
+  }
+  #loc {
+    width: 20rem;
+  }
+  .dynamic-zone {
+    text-align: center;
+  }
+  img {
+    width: 25rem;
+  }
+}

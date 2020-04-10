@@ -1,0 +1,27 @@
+html {
+  font-size: 16px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  margin: 1rem;
+  padding: 0;
+  border: 0;
+  font-family: "Lato", "sans";
+  background-image: linear-gradient(
+      to right,
+      rgba(199, 236, 238, 0.5),
+      rgba(48, 51, 107, 0.7)
+    ),
+    url("../images/blue_ocean.jpg");
+  background-color: #dff9fb;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  flex: 2;
+}

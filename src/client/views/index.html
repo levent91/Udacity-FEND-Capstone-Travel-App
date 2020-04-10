@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="shortcut icon" href="">
+    <title>Udacity Capstone Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-title">15 Days Travel Planner</div>
+    </header>
+    <section>
+        <div class="form-box">
+            <form class="form-area" onsubmit="return Client.getLoc(event)">
+                <div class="form-label">
+                    <label for="startDate">Date of Departure</label>
+                    <input id="startDate" type="date" name="input-start" value="" placeholder="Starting Date">
+                    <label for="endDate">Date of Return</label>
+                    <input id="endDate" type="date" name="input-end" value="" placeholder="Ending Date">
+                    <label for="loc">Destination (City)</label>
+                    <input id="loc" type="text" name="input-location" value="" placeholder="Destination">
+                </div>
+        </div>
+        </form>
+        <div class="btn-field">
+            <btn class="myButton" onclick="return Client.getLoc(event)">Check Weather</btn>
+        </div>
+        <div class="dynamic-zone">
+            <div id="info-zone">
+            </div>
+            <div id="image-zone">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-title">Udacity FEND Capstone Project</div>
+    </footer>
+</body>
